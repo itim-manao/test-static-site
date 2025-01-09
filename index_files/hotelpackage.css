@@ -1,0 +1,2821 @@
+/* reset css */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+cite {
+    font-style:italic;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:active,
+a:hover {
+    outline: 0 !important;
+    text-decoration: none;
+    color:#349be0;
+}
+a, img a {
+    border: 0;
+    outline: 0 !important;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color:#333333;
+}
+
+strong { 
+    font-weight: 600 !important;
+    color: #868686;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+}
+
+h1,h2,h3,h4,h5,h6,p,span {
+    margin: 0;
+    padding: 0;
+}
+
+button:focus,
+button:hover {
+    outline: none !important;
+}
+
+.no-gutter {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.downArrow {
+    border-top: 9px solid #34495d;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    right: 18px;
+    top: 37px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.downArrow.sl { top: 19px; }
+.downArrow.sl2 { top: 42px; }
+.downArrow.ml { top: 47px; right: 20px; }
+
+.carousel-control .fa {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    font-size: 16px;
+    top: 45%;
+    position: absolute;
+    left: 10px;
+}
+
+.carousel-control .fa:before {
+    position: absolute;
+    top: 0;
+}
+.alert {
+    padding: 0 15px !important;
+}.modal-header .close {
+    margin-top: -2px;
+    opacity: .7;
+}
+.carousel-control .fa-chevron-left:before { left: 0; right: 4px;}
+.carousel-control .fa-chevron-right:before { left: 0; right: -4px;}
+
+
+@media not all, (-webkit-transform-3d) {
+    .carousel-inner >.item.active, 
+    .carousel-inner >.item.next.left, 
+    .carousel-inner >.item.prev.right {
+        left: -1px;
+    }
+}
+
+.form-cntrlicon {
+    position: absolute;
+    width: 18px;
+    top: 4px;
+    left: 0;
+    z-index: 10;
+}
+
+.tourpkg-location .btn-group .btn + .btn {
+    margin-left: 0px;
+}
+/* reset css end */
+
+/* 5 Columns */
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+/*27-02-20*/
+.pr-0 {
+    padding-right: 0;
+}
+.itinerary-body i.fa {
+    font-size: 1.2em;
+    color: #3e3e3e;
+}
+.cart-summary-title {margin: 0px -15px 10px;padding: 5px 15px;background: #00b0f0;color: #000;text-transform: uppercase;font-weight: bold;font-size: 1.3em;}
+.cart-summary-title.green {
+    background: #92d050;
+}
+.itinerary-body .panelx{
+    padding-top: 5px;
+}
+.lodging .panelx:last-child {
+    border-bottom: 0;
+}
+.green-wrap .panelx {
+    border-bottom-color: #92d050;
+}
+.itinerary-body .golfhdr {
+    margin-bottom: 12px;
+}
+.itinerary-body .panelx > .row {
+    margin-bottom: 2px;
+}
+
+.popover, .popover-body {
+    font-size: .6em;
+}
+.input-spinners input[type="text"] {
+    border: none;
+    background-color: transparent !important;
+    width: 40px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    vertical-align: middle;
+    display: inline;
+    height: auto !important;
+    box-shadow: none;
+    padding:0;
+
+}
+
+.modal-body .sebooking {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.modal-body .sebooking .bkg-orders, .modal-body .sebooking .bkg-footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.modal-body .sebooking .bkg-orders .extraInfo{
+    margin-left: -15px;
+    margin-right: -15px;
+    background: #eff0f5;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: -1px;
+}
+.extInfo-top .btn-extrainfo {
+    margin-left: 5px;
+}
+
+/*20-03-2020*/
+.py-3 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+
+.alert.bubble {
+    padding: .5rem !important;
+    margin: 0 0px 6px 8px;
+    position: absolute;
+    max-width: 100%;
+    width: max-content;
+    min-width: 50%;
+    left: 80%;
+    z-index: 9;
+    bottom: 100%;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+}
+
+.teetimes-item {
+    position: relative;
+}
+
+.alert.bubble:before {content: '';position: absolute;top: 100%;left: 10px;border-style: solid;border-width: 17px 10px 10px 0px;border-color: #d9edf7 transparent transparent transparent;}
+
+.alert.bubble button.close {
+    margin-left: 5px;
+    right: -3px;
+    top: 0;
+}
+
+.modal-header.no-text {
+    border-bottom: none;
+}
+.modal-body h4 {
+    margin-bottom: 0.7rem;
+}
+.modal-md {
+    max-width: 440px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.tflex {
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: -ms-flex !important;
+    display: flex !important;
+    flex-wrap: -ms-wrap;
+    flex-wrap: wrap;
+}
+
+.tflex-row {
+    flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+.tflex-column,
+.hotelslist.grid .hotelslist-item,
+.hotelslist.list .hotelslist-item .htl-cont,
+.hotelslist.grid .hotelslist-item .hotelslist-itembody {
+    flex-direction: column;
+    -ms-flex-direction: column;
+    width: 100%;
+}
+
+.tflex-vertical-center { align-items: center; }
+.tflex-horizontal-center { justify-content: center; }
+.align-vcenter { align-self: center; }
+.alignend { align-self: flex-end; }
+
+.tflex .tflex-col {
+    flex: 1;
+    -ms-flex: 1;
+}
+
+.alignbtm { margin-top: auto; }
+
+.loadingimage {
+    max-width: 30%;
+    margin: auto;
+}
+.loading { text-align: center; }
+
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn-sm {
+    letter-spacing: normal !important;
+    padding: 8px 18px !important;
+}
+
+.btn-info {
+    background-color: #349be0;
+    border-color: #349be0;
+}
+
+.btn-success {
+    background-color: #5ea25e;
+    border-color: #5ea25e;
+}
+
+.btn-number {
+    height: 34px;
+    padding: 0 15px;
+}
+
+label { margin-bottom: 5px; }
+.form-group { position: relative; }
+
+.form-group .form-control,
+.select2 .select2-selection {
+    color: #34495d;;
+    border-color: #34495d !important;
+    border-radius: 3px;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    -ms-appearance: none; /* Edge */
+    appearance:         none;
+}
+
+.form-control {
+    height: 45px !important;
+    padding: 7px 12px;
+}
+
+.select2 {
+    display: block !important;
+    min-width: 211px;
+}
+
+.select2 .select2-selection {
+    width: 100%;
+    height: auto;
+    min-height: 45px;
+    border: 1px solid #34495d;
+}
+
+.select2 .select2-search__field  {
+    padding: 6px;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+    white-space: normal;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    padding: 1px 5px 0 23px !important;
+    position: relative;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff !important;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 16px;
+    height: 16px;
+    background-color: #989696;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+.select2-container .select2-search--inline { display: none;}
+
+.select2-results .select2-results__option { 
+    position: relative;
+    padding-right: 22px;
+}
+
+.select2-results .ddgreen .fa,
+.select2-results .ddwhite .fa {
+    position: absolute;
+    right: 6px;
+    top: 10px;
+}
+
+
+select::-ms-expand { display: none; }
+
+.form-group .form-control:focus {
+    border-color: #66afe9;
+}
+
+.form-group select.form-control {
+    font-weight: 500;
+    padding-right: 35px;
+}
+
+/* tourpackage header css */
+.tourpkg-header {
+    background-color: #eff0f5; 
+    margin-left: -15px; margin-right: -15px; 
+}
+
+.tourpkg-options { 
+    background-color: #f7f6fb;
+}
+
+.tourpkg-location,
+.tourpkg-options {
+    padding: 15px 20px;
+    position: relative;
+}
+.tourpkg-location {
+    padding: 15px 20px 5px;
+}
+.tophead.tourpkg-options{
+    margin: 0 -15px;
+    padding: 20px;
+}
+
+.selodging-header .form-group select {
+    width: 110px;
+}
+
+.btn-group .btn {
+    padding: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-color: transparent;
+}
+
+.teetimes-item > .tflex > .tflex-col.teeprice {
+    padding: 0 10px;
+}
+
+.teetimes-item .t-plusbtn .btn:before {
+    content: "";
+    top: 1px;
+    position: relative;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+    transition: all 0.3s ease-in-out;
+}
+
+.teetimes-item .t-plusbtn .btn:before {
+    content: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.teetimes-item.ttimegreen .t-plusbtn .btn:before {
+    content: "\2212";
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.tourpkg-location .tourpkg-rightcol .btn-group .btn:not(:first-child):before,
+.teetimes-info .btn-group .btn:not(:first-child):before {
+    content: '';
+    position: absolute;
+    top: 17px;
+    left: 0;
+    width: 1px;
+    height: 15px;
+    border-right: 1px dashed #fff;
+}
+
+.teetimes-info .btn-group .btn:not(:first-child):before {
+    top: 12px;
+}
+
+.tourpkg-options .tourpkg-flt { float: left; }
+
+.tourpkg-options .tourpkg-flt h3 {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #4c4c4c;
+    min-width: 170px;
+}
+
+.tourpkg-flt .pkgprice {
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.tourpkg-options .tourpkg-flt .btn-group { padding: 3px 0; }
+
+.tourpkg-options .tourpkg-flt .btn {
+    padding: 0;
+    background-color: transparent;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.tourpkg-options .tourpkg-flt .btn:not(:first-child),
+.tourpkg-options .tourpkg-flt .btn .fa-angle-left { color: #349be0; }
+.tourpkg-options .tourpkg-flt .btn .fa-angle-left {
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: -5px;
+    padding-right: 8px;
+}
+.tourpkg-options .tourpkg-flt:not(:last-child) {  margin-right: 25px; }
+
+.tophead {
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.tourpkg-wrapper {
+    padding: 30px 0 40px;
+}
+
+.wrap-content {
+    padding: 0 15px;
+}
+
+[class*="tourpkg"] [class*="col-"],
+#login [class="col-xs-6"],
+.tophead {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pkglist-header {
+    padding-left:15px;
+    padding-right:15px;
+}
+
+/* Available package css */
+.tourpkg-available .available-list > .tflex { margin-bottom: 40px; }
+
+.tourpkg-available .tflex-col:first-child {
+    flex-basis: auto;
+    flex-grow: 0;
+}
+
+.tourpkg-available .tflex-content h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tourpkg-available .tflex-content p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #868686;
+}
+
+.tourpkg-available .tflex-content strong,
+.available-list .tflex .tflex-col .alignbtm strong { 
+    display: block;
+    color: #909090;
+}
+
+.tourpkg-available .tflex-content a {
+    margin-top: 10px;
+}
+
+.courseContainer .tflex-col .alignbtm .courseadd {
+	margin-top: 5px;
+	padding: 8px 15px;
+    font-size: 13px;
+}
+
+.alignbtm,
+.tourpkg-available .htl-image,
+.tourpkg-available .htl-image,
+.hotelslist.grid .hotelslist-item .htl-image {
+    margin-bottom: 20px;
+}
+
+.courseContainer {
+    margin-bottom: 10px;
+}
+
+.htl-image,
+.courseContainer {
+    position: relative;
+}
+
+.htl-image { 
+    min-height: 184px;
+    height: 184px;
+    background-color: #ccc;
+}
+
+.htl-image img {
+    width: 100%;
+    height: 100% !important;
+}
+
+.procourse .PackageList {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.procourse .PackageList [class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.courseContainer .tab-content {
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.courseContainer .tab-content:hover {
+    background-color: #ececec;
+}
+
+.courseContainer .htl-image {
+    min-height: initial;
+    height: 100px;
+}
+
+.courseContainer.courseItem {
+    flex: 0 0 calc(20% - 10px);
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: -ms-flex !important;
+    display: flex !important;
+    flex-wrap: -ms-wrap;
+    flex-wrap: wrap;
+    border: 1px solid #e8e8e8;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    margin: 0 5px 10px;
+}
+
+.courseContainer.courseItem .tab-content {
+    width: 100%;
+    height: 100%;
+}
+
+.courseContainer.courseItem .available-list {
+    height: 100%;
+}
+
+.courseContainer.courseItem .tflex-mitem {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+
+.courseContainer.courseItem .tflex-mitem > .tflex-col {
+    flex: auto;
+}
+
+.courseContainer.courseItem .tflex-mitem .box-headercc {
+    padding-top: 10px;
+}
+
+.courseContainer.courseItem .available-list > .tflex > .tflex-col:nth-child(1) {
+    flex: auto;
+    padding-right: 0;
+}
+
+.courseContainer.courseItem .available-list > .tflex > .tflex-col:nth-child(3) {
+    align-self: center;
+    margin-top: auto;
+    margin-right: initial;
+}
+
+.courseContainer.courseItem .available-list > .tflex .alignend .alignbtm {
+    text-align: center;
+}
+
+.available-list .tflex-vertical-center {
+    align-items: initial;
+}
+
+.availablepkg-activitytxt {
+    border-left: 2px solid #a7d2ff;
+    padding-left: 15px;
+}
+
+.availablepkg-activitytxt .tflex-content p {
+    margin-top: 0 !important;
+    margin-bottom: 0;
+}
+
+/* tee times css */
+.tourpkg-teetimes,
+.selodging {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.teetime-form .form-group {
+    margin-bottom: 0;
+}
+
+.teetime-form .input-group {
+    width: 100%;
+}
+
+.teetime-form .form-group:not(:last-child) { margin-bottom: 0;}
+
+.input-group .form-control {
+    border: 0;
+    background-color: #fff;
+    box-shadow: none;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.teetimes-list > .row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.teetimeselect { /*display: none;*/ }
+
+.teetimes-item { 
+    background-color: #eff0f5;
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.ratesToday .teetimes-item { 
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.ratesToday .teetimes-activityname > span {
+    color: #598e59;
+}
+
+.ratesToday .teetimes-item .t-plusbtn .btn {
+    background-color: #609460;
+    border-color: #578857;
+}
+
+.teetimes-item > .tflex {
+    flex-wrap: nowrap;
+}
+
+.teetimes-item > .tflex > .tflex-col {
+    flex: inherit;
+}
+
+.teetimes-item > .tflex > .tflex-col {
+    flex: 0 0 auto;
+    flex-shrink: 1;
+}
+
+.teetimes-item > .tflex > .tflex-col:first-child {
+    margin-right: auto;
+    flex-basis: 70%;
+}
+
+.teetimes-item > .tflex > .tflex-col .teeprice {
+    padding: 0 10px;
+}
+
+.courseContainer .available-list > .tflex > .tflex-col:nth-child(1) {
+    flex-grow: 0;
+    flex-basis: 213px;
+    padding-right: 20px;
+}
+
+.courseContainer .available-list > .tflex .alignbtm   {
+    margin-bottom: 0 !important;
+}
+
+.courseContainer.col-lg-3 .available-list > .tflex > .tflex-col:nth-child(1) {
+    flex-basis: 100%;
+    align-self: stretch;
+    padding-right: 0;
+}
+
+.courseContainer.col-lg-3 .available-list > .tflex {
+    flex-direction: column;
+    align-items: center;
+    min-height: 316px;
+}
+
+.courseContainer.col-lg-3 .available-list > .tflex > .tflex-col {
+    text-align: center;
+    margin-right: initial !important;
+    flex-basis: 100% !important;   
+}
+
+.courseContainer.col-lg-3 .available-list > .tflex .alignend .alignbtm {
+    text-align: center;
+}
+
+.courseContainer .available-list > .tflex > .tflex-col:nth-child(3) {
+    margin-right: auto;
+    flex-basis: 13%;
+}
+
+.courseContainer.col-lg-3 .available-list > .tflex > .tflex-col {
+    flex: inherit !important;
+}
+
+.courseContainer.col-lg-3 .available-list > .tflex > .tflex-col:nth-child(2) {
+    margin-right: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.courseContainer .available-list > .tflex > .tflex-col:nth-child(2) .tflex-content > * {
+    margin-bottom: 5px;
+}
+
+.courseContainer.col-lg-3 .available-list .htl-image { 
+    height: 130px;
+    min-height: initial;
+}
+
+.courseContainer.col-lg-3 .available-list > .tflex > .alignend   {
+    align-self: initial;
+    margin-top: auto;
+}
+
+.courseContainer.col-lg-3 .available-list > .tflex > .alignend .alignbtm   {
+    margin-bottom: 0;
+}
+
+.teetimes-item h3 {
+    font-size: 18px;
+    color: #505050;
+}
+
+.teetimes-item .t-plusbtn .btn,
+.teetimes-item p .btn {
+    font-size: 29px;
+    padding: 0 10px;
+    height: 38px;
+    line-height: 30px;
+}
+
+.teetimes-item .t-plusbtn {
+    align-self: center;
+    text-align: right;
+}
+
+.teetimes-activityname > span {
+    display: inline-block;
+    line-height: 1.2;
+    padding: 0 5px;
+    color: #909090;
+    font-size: 12px;
+    font-weight: 500;
+    /*border-right: 1.3px solid #909090;*/
+}
+
+.teetimes-activityname > span:first-child{
+    padding-left: 0;
+}
+
+.teetimes-item .teetimes-info {
+    background-color: #fff;
+}
+
+.ttimegreen .teetimes-info {
+    margin-top: 6px;
+}
+
+.ttimegreen .teetimes-info .info-content {
+    padding: 14px;
+}
+
+.teetimes-item .teetimes-info p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.teetimes-item .teetimes-info p:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.teetimes-item .teetimes-info a {
+    display: inline-block;
+    color: #35a559;
+}
+
+.teetimes-info .btn-group {
+    flex-wrap: nowrap;
+}
+
+.teetimes-info .btn-group .btn {
+    flex: 1;
+    background-color: #35a559;
+    border-radius: 0;
+    padding: 10px 6.25px;
+    font-size: 13px;
+}
+
+.teetimes-info .btn-group .btn:active {
+    background-color: #47b96c;
+    border-color: transparent;
+}
+
+.teetimes-item.ttimegreen {
+    background-color: #35a559;
+    padding-bottom: 0;
+}
+
+.teetimes-item.ttimegreen .t-plusbtn .btn {
+    background-color: white;
+    border-color: #35a559;
+    color: #35a559 !important;
+}
+
+.hotelDetails .teetimes-item.ttimegreen {
+    background-color: #e6911c;
+    padding-bottom: 0;
+}
+
+.hotelDetails .teetimes-info .btn-group .btn {
+    background-color: #e6911c;
+}
+
+.hotelDetails .teetimes-item.ttimegreen .t-plusbtn .btn {
+    border-color: #e6911c;
+}
+
+.hotelDetails .teetimes-item.ttimegreen .t-plusbtn .btn:before {
+    color: #e6911c;
+}
+
+.teetimes-item.ttimegreen > .tflex > .tflex-col:not(:last-child) * {
+    color: white;
+}
+
+.teetimes-item.ttimegreen .teetimes-activityname > span {
+    border-right: 1.3px solid #fff;
+    font-weight: normal;
+}
+
+.selodging .teetimes-info .btn-group .chkoutbtn { width: 100%; }
+.selodging .teetimes-info .btn-group .chkoutbtn:before { 
+    display: none;
+}
+
+/* range slider */
+.ui-state-focus, 
+.ui-widget-content .ui-state-focus {
+    outline: none;
+}
+  
+.price-range-both {
+    display: none; 
+}
+
+.ui-slider.ui-widget-content {
+    border: 0;
+}
+.ui-slider.ui-slider-horizontal {
+    height: .245em;
+    width: 95%;
+    min-width: 150px;
+    top: 50px;
+}
+.ui-slider.ui-corner-all {
+    border-radius: 0;
+    background: none;
+    background-color: #e2e2e2;
+    left: 10px;
+}
+.ui-slider .ui-slider-range {
+    background: #349be0;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -0.47em !important;
+}
+.ui-state-default, 
+.ui-widget-content .ui-state-default {
+    border-radius: 50%;
+    background: #fff !important;
+}
+.range-slider .value {
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    margin: 0 0 0 -20px;
+    min-width: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: #349be0;
+    font-size: 12px;
+    line-height: 30px;
+}
+/* range slider end */
+
+/* lodging tabs */
+.nav-tabs,
+.nav-tabs > li > a { border: 0 !important; }
+
+.nav-tabs > li > a {
+    padding: 0 !important;
+}
+
+.availablepkg-wizards .nav { position: relative; }
+.availablepkg-wizards .nav:before {
+    height: 2px;
+    width: 75%;
+    background-color: #868686;
+    top: 12px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.availablepkg-wizards .nav > li { padding: 0 24px; }
+.availablepkg-wizards .nav > li > a {
+    width: 25px;
+    height: 25px;
+    line-height: 25px !important;
+    text-align: center;
+    background-color: #868686;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 50%;
+}
+
+.availablepkg-wizards .nav-tabs > li.active > a,
+.availablepkg-wizards .nav-tabs > li.active > a:focus,
+.availablepkg-wizards .nav-tabs > li.active > a:hover {
+    background-color: #349be0;
+    color: #fff;
+}
+
+/* select lodging */
+.selodging-header { 
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.sellodg-head-leftcol > div:not(.sellodg-tabs),
+.fm-Inline > .form-group { float: left; }
+
+.sellodg-head-leftcol .fm-Inline:not(:last-child) {
+    margin-right: 10px;
+}
+
+.sellodg-head-leftcol .input-group .form-control {
+    text-align: left;
+}
+
+.sellodg-head-leftcol .form-group .form-cntrlicon {
+    top: -2px;
+    left: -18px;
+}
+
+.sellodg-head-leftcol .form-group p {
+    padding-top: 12px;
+    color: #868686;
+    font-weight: 600;
+}
+
+.selodging-placecontent {
+    padding-top: 15px;
+}
+
+.selodging-placecontent .moreinfo {
+    color: #349be0;
+    display: inline-block;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.selodging .form-inline.selectroom {
+    padding: 30px 0;
+}
+
+/*.selectroom .form-group .form-control {
+    min-width: 100px;
+}*/
+.selodging .form-inline.selectroom .input-spinners {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+div#divHotelRoomView .fm-Inline input.form-control {
+    width: 155px;
+    text-align: left;
+    padding-left: 30px;
+}
+.fal {
+    font-family: FontAwesome;
+}
+
+.selodging .form-inline .form-group { width: 100%; }
+
+.selectroom .form-group.inl,
+.sebooking .form-group.inl { 
+    display: inline-block;
+    width: auto !important;
+}
+
+.selodging .form-inline .form-group label {
+    margin-bottom: 0;
+    padding-right: 5px;
+    font-weight: 700;
+}
+
+.selodging .form-group label {
+    margin-bottom: 0;
+}
+
+.selodging .form-group label > strong {
+    padding-left: 12px;
+    color: #333;
+    font-weight: 700;
+}
+
+.selodging-header .input-group .form-control {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+}
+
+.selodging .hotelDetails .htl-price {
+    text-align: center;
+}
+
+.hotelDetails .tflex .tflex-col:first-child h3 {
+    font-size: 15px;
+}
+
+.map  {
+    width: 100%;
+    min-height: 450px;
+}
+
+.selodging-prop {
+    padding: 25px;
+}
+
+.selodging-prop > div {
+    margin-bottom: 20px;
+}
+
+.selodging-prop h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.selodging-prop h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about-prop h3 {
+    margin-bottom: 10px;
+}
+
+.form-control-icon {
+    background-image: url(../images/cal-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 19px;
+    display: inline-block;
+}
+
+.hotelDetails .teetimes-item .teetimes-info {
+    display: none;
+}
+
+.hotelslist.list .hotelslist-item .hotelslist-itembody {
+    flex-basis: 100%;
+    border: 2px solid transparent;
+}
+
+.hotelslist-itembody.hotel-itemActive {
+    border: 2px solid #e6911c !important;
+    outline: none;
+}
+
+.hotelslist .hotelslist-item {
+    margin-bottom: 15px;
+    flex-basis: 100%;
+}
+
+.hotelslist.grid .hotelslist-itembody {
+    height: 100%;
+}
+
+.hotelslist.grid .hotelslist-item .tflex-col {
+    flex-direction: column;
+}
+
+.hotelslist.grid .hotelslist-itembody .tflex-col:first-child {
+    flex: inherit;
+}
+
+.hotelslist.grid .hotelslist-itembody.hotel-itemActive .htl-content {
+    padding: 0 10px;
+}
+
+.hotelslist.grid .hotelslist-item {
+    flex-basis: 100%;
+}
+
+.hotelslist.grid >.tflex {
+    margin: 0 -5px;
+}
+
+.htl-cont > div {
+    width: 100%;
+}
+
+.hotelslist .htl-content h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hotelslist .htl-content p {
+    margin-bottom: 20px;
+}
+
+.htlprice {
+    margin-top: auto;
+    padding: 5px;
+    background-color: #e6e6e6;
+}
+
+.hotelslist .tflex-column {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 100%;
+}
+
+.htlprice .pricestart {
+    padding: 5px 10px 1px;
+    float: left;
+}
+
+.htlprice .pricestart span {
+    color: #868686;
+    font-size: 12px;
+}
+
+.htlprice .pricestart h4 { 
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.htlprice .findbtn {
+    padding-left: 2px;
+    float: right;
+}
+
+.sellodg-tabs .nav-tabs {
+    text-align: right;
+}
+
+.sellodg-tabs .nav-tabs li {
+    padding: 10px 0;
+    float: none;
+    display: inline-block;
+}
+
+.sellodg-tabs .nav-tabs li:not(:last-child) {
+    margin-right: 25px;
+}
+
+.sellodg-tabs .nav-tabs li a {
+    font-weight: 600;
+    display: inline-block;
+}
+
+.sellodg-tabs .nav-tabs li.active a,
+.sellodg-tabs .nav-tabs li a:hover {
+    background-color: transparent;
+    color: #349be0;
+}
+
+.sellodg-tabs .nav-tabs li a:focus {
+    background-color: transparent;
+}
+
+.sellodg-tabs .nav-tabs li img {
+    width: 14px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+/* secure booking */
+.sebooking {
+    padding-bottom: 10px;
+}
+.sebooking > div {
+    padding: 20px 0 0;
+}
+
+.bkg-orders {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 384px;
+}
+
+.bkg-teetimes, .bkg-lodge { position: relative; }
+
+.bkg-teetimes:not(:last-child) {
+    border-bottom: 2px solid #cacaca;
+    margin-bottom: 20px;
+}
+
+.bkg-lodge {
+    padding-bottom: 7px;
+}
+
+.bkg-lodge .res-name {
+    margin-top: 8px;
+} 
+
+.sebooking .delete-order {
+    position: absolute;
+    top: 43px;
+    right: 15px;
+}
+
+.no-orders {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sebooking h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sebooking .btn-edit {
+    color: #349be0;
+    font-size: 13px;
+    font-weight: 700;
+    vertical-align: top;
+    padding-left: 5px;
+    margin-top: 2px;
+    display: inline-block;
+    text-transform: uppercase
+}
+
+.sebooking label {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.sebooking h4 .btn {
+    font-weight: 500;
+}
+
+.sebooking .form-group .form-control {
+    width: 100px;
+}
+
+.extraInfo .extInfo-top {
+    background-color: #eff0f5;
+    padding: 20px 0 30px;
+}
+
+.total-value {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.spanEachPrice {
+    display: block;
+    font-size: 12px;
+    color: #656565;
+    font-weight: 700;
+}
+
+.extraInfo {
+    display: none;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sebooking label + .total-value {
+    margin-top: 4px;
+}
+
+.sebooking .total-value {
+    margin-top: 48px;
+}
+
+.sebooking .checkDate .form-group {
+    float: left;
+}
+
+.sebooking .checkDate .form-group:not(:last-child) {
+    padding-right: 30px;
+}
+
+.sebooking .checkDate p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.extInfo-top h3 {
+    margin-bottom: 15px;
+}
+
+.input-spinners {
+    vertical-align: top;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.input-spinners .btn {
+    padding: 0 3px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.input-spinners .btn-info {
+    background-color: transparent;
+    border-color: #349be0;
+    color: #349be0;
+    border-width: 2px;
+}
+
+.input-spinners .btn span {
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.input-spinners .btn span.glyphicon-plus {
+    width: 11px;
+}
+
+.input-spinners #incVal {
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.sebooking .btn-group {
+    background-color: #eff0f5;
+    margin-bottom: 20px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.sebooking .btn-group .btn {
+    text-transform: capitalize;
+    letter-spacing: normal;
+    min-width: 130px;
+    background-color: transparent;
+    padding: 7px 10px;
+    color: #ababab;
+}
+
+.btn.atvbtn {
+    background-color: #fff !important;
+    color: #333 !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.bkg-footer {
+    padding-top: 10px;
+    text-align: right;
+    border-top: 1px solid #ccc;
+    margin-left: 15px;
+}
+
+.bkg-footer .subtotal {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 700;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.bkg-footer .subtotal > strong {
+    font-size: 28px;
+    padding: 0 6px;
+    color: #349be0;
+}
+
+.bkg-footer .btn-info {
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.sebooking .nav-pills li {
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #909090;
+}
+.sebooking .nav-pills li:first-child {
+    padding-left: 0;
+}
+.sebooking .nav-pills li:not(:last-child) {
+    border-right: 1.3px solid #909090;
+}
+
+/* modals css */
+.modal {
+    padding-left: 0;
+    padding-right: 0;
+}
+#sebooking .modal-header {
+    padding: 30px 15px;
+    background-color: #eff0f5;
+}
+
+#sebooking .modal-header h4,
+#sebooking .modal-header .close {
+    font-size: 16px;
+    color: #349be0;
+    opacity: 1;
+    line-height: 1;
+}
+
+#sebooking .modal-header .close {
+    font-size: 14px;
+}
+
+#sebooking .modal-header .close > span {
+    border: 2px solid #349be3;
+    border-radius: 50%;
+    height: 19px;
+    width: 19px;
+    display: inline-block;
+    line-height: 1;
+    padding: 1px 0;
+}
+
+.btn-extrainfo span {
+    display: inline-block;
+    color: #349be0;
+    border: 2px solid #349be0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 19px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+.tflex-col.extInfo-top {
+    flex-basis: 50%;
+}
+
+/* pagination */
+.bcCount {
+    display: inline-block;
+    padding-left: 0;
+    border-radius: 4px;
+}
+.bcCount > .bccountnum,
+.bcCount > .bccountnum > div {
+    display: inline;
+}
+.bcCount > .bccountnum > a,
+.bcCount > .bccountnum > div,
+.bcCount > .bccountnum > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #349be0;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #349be0;
+}
+.bcCount a,
+.bcCount > .bccountnum > div {
+    text-decoration: none !important;
+    z-index: 0 !important;
+}
+.bcCount > .bccountnum:first-child > a,
+.bcCount > .bccountnum:first-child > div,
+.bcCount > .bccountnum:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.bcCount > .bccountnum:last-child > a,
+.bcCount > .bccountnum:last-child > div,
+.bcCount > .bccountnum:last-child > span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.bcCount > .bccountnum > a:focus,
+.bcCount > .bccountnum > div:focus,
+.bcCount > .bccountnum > a:hover,
+.bcCount > .bccountnum > div:hover, 
+.bcCount > .bccountnum>span:focus, 
+.bcCount > .bccountnum>span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #349be0;
+    border-color: #349be0;
+}
+
+.input-number {
+    background-color: #cae0ef !important;
+}
+
+#divPlayers .modal-title {
+    font-size: 20px;
+    font-weight: 400 !important;
+}
+
+#divPlayers .box-body {
+    padding: 0 20px;
+}
+
+#divPlayers .box-body .margin:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.infinitefooter {
+    position: fixed;
+    bottom: 0px;
+    background-color: #349be0;
+    display: none;
+    right: 20px;
+    padding: 8px;
+    font-size: 12px;
+    width: 300px;
+    opacity: 0.7;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    z-index: 99;
+}
+
+#carttotal, #carttotal2 {
+    cursor: pointer;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.bg-white {
+    background-color: #fff;
+    color: #1c1c1c;
+    height: 35px;
+    padding-top: 7px;
+    padding-left: 4px;
+}
+
+.loading {
+    margin-bottom: 12px;
+}
+
+.courseContainer .tflex-content .box-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.checkoverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 98.5%;
+    opacity: .50;
+    transition: .3s ease;
+    background-color: #c0c0c0;
+    z-index: 100;
+    margin: 0 auto;
+}
+
+.procourse .PackageList .courseContainer.col-lg-3 .checkoverlay {
+    width: 93.28%;
+}
+
+.checkicon {
+    color: green;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fabtn {
+    display: inline-block;
+    padding: 0 5px;
+    color: #7d7d7b;
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.fabtn:first-child {
+    padding-left: 0;
+}
+
+.procourse .sellodg-tabs {
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 5px;
+}
+
+.sellodg-tabs h3 {
+    float: left;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.tab-pane.available-list {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+}
+
+.mapcontainermodal {
+    height: 400px;
+}
+
+.ratesHeader {
+    min-height: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 2px 0;
+}
+
+.ratesHeader.rdates {
+    padding: 0;
+    font-size: 22px;
+    color: #000;
+}
+
+.dtArrowLft,
+.dtArrowRt {
+    position: absolute;
+    top: 11px;
+    padding: 0 10px;
+    font-size: 20px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #75bd75;
+}
+
+.dtArrowLft { left: 20px; }
+.dtArrowRt { right: 20px; }
+
+.default .col-md-4 > .ratesContainerO {
+    background-color: #f8f9fb;
+}
+
+.default .col-md-4 > .ratesContainer {
+    background-color: #a8cca8;
+}
+
+.default .col-md-4 > .ratesContainerO,
+.default .col-md-4 > .ratesContainer {
+    padding: 10px;
+}
+
+.ratesheadertop {
+    margin-bottom: 15px;
+}
+
+.default .courseTitle {
+    float: left;
+    font-size: 24px;
+    padding-top: 6px;
+    padding-right: 10px;
+    line-height: 1;
+}
+
+#login {
+    padding: 0 10px;
+}
+
+#login .courseTitle {
+    padding-top: 0;
+}
+
+.loginForm a {
+    color: #349be0;
+}
+
+#Registeriframe {
+    width: 100%;
+    max-height: 500px;
+    height: 500px;
+}
+
+.login-box {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.col {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.pkgname {
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 1;
+}
+
+.stepinstructions p {
+    margin-bottom: 5px;
+}
+
+.cont-right h5 {
+    display: inline-block;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+#carttotal3 {
+    margin-left: 10px;
+}
+
+.btn-primary {
+    background-color: #018381 !important;
+    border-color: #018381 !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:hover, .btn-primary:active {
+    background-color: #05afac !important;
+    border-color: #05afac !important;
+}
+
+.modal {
+    padding-right: 0 !important;
+}
+
+#AddonsLabel {
+    font-size: 1.2rem;
+}
+
+#divPlayers .form-control.input-number {
+    height: auto !important;
+}
+
+#changeCourses {
+    width: 100%;
+}
+
+.stepinstructions { margin-bottom: 20px;}
+
+.stepinstructions,
+.pkgheadline {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #1d5e8a;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.stepinstructions .btn-sm {
+    display: inline-block;
+}
+
+.pkgNote {
+    text-align: center;
+}
+
+.pkgDesc {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.bookcourseshr.btn-sm {
+    padding: 1px 18px !important;
+}
+
+#mainmap {
+    height: 400px;
+}
+
+span.required {
+    color: red;
+    font-size: 24px;
+    line-height: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#btncarttotal * {
+    pointer-events: none;
+}
+
+.bcktorates {
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -4px 9px 0 0;
+}
+
+#dispMsg a,
+#showTerms,
+.rtttlink {
+    display: inline-block;
+    color: #349be0;
+}
+
+#showTerms {
+    margin-bottom: 5px;
+}
+
+#dispMsg a:hover,
+#showTerms:hover {
+    text-decoration: underline;
+}
+
+.procourse .tourpkg-wrapper { padding-top: 15px;}
+.procourse .sellodg-tabs h3 { margin-top: 5px; }
+.procourse .sellodg-tabs .nav-tabs li {
+    padding: 5px 0;
+}
+
+#reviewARSHA {
+    overflow: hidden;
+}
+
+#carouselARSHA {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 0 10px;
+}
+
+#reviewsARSHA {
+    height: auto;
+}
+
+#reviewARSHA .slide {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 9px;
+}
+
+.slide > div:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+#buttonsARSHA {
+    text-align: center;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+#buttonsARSHA a {
+    display: inline-block;
+    background-color: #09d167;
+    padding: 4px 10px;
+    margin: 0 3px;
+    color: #fff;
+}
+
+.quote-phrase {
+    line-height: 1.3;
+}
+
+
+/****** 03-12-2020 *******/
+
+/*.pop-header{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}*/
+
+.pop-header button{
+    font-size:30px;
+    margin-left: 12px;
+}
+
+.bkg-lodge {
+    background: #deebf6;
+    padding: 15px 16px;
+}
+
+.bkg-golf{
+    background: #e2efd9;
+    padding: 15px;
+}
+
+.bkg-teetimes.bkg-lodge {
+    margin-bottom: 0;
+}
+
+#sebooking .modal-body{
+    padding: 0;
+}
+
+#sebooking .modal-body .bkg-orders{
+    padding-top: 0;
+    padding-right: 0;
+}
+
+
+#sebooking .modal-body .sebooking{
+       margin-right: 0;
+}
+
+.bkg-teetimes.bkg-lodge .form-group .form-control {
+    height: 40px !important;
+}
+
+.bkg-teetimes.bkg-lodge .downArrow.ml {
+    top: 56px;
+}
+
+.bkg-teetimes.bkg-golf{
+    margin-bottom:0;
+}
+
+#sebooking .modal-header {
+    border-bottom: 2px solid #cacaca;
+}
+
+@media (max-width: 991px) {
+    .itinerary-body .btn-success{min-width:100%;margin:3px 0;}
+}
+@media only screen and (min-width: 601px) {
+
+    .downArrow { top: 45px; }
+    .downArrow.sl,
+    .downArrow.sl2 { top: 22px; }
+    .downArrow.ml { top: 62px; right: 18px; }
+    
+    .tourpkg-rightcol .btn-addcart .cartValue {
+        display: none;
+        background-color: #fff;
+        padding: 0 4px;
+        border-radius: 3px;
+        color: #349be0;
+    }
+    .tourpkg-location .btn-group .btn {
+        z-index: 999;
+        min-width: 140px;
+        height: 50px;
+        padding: 13px 10px 15px;
+    }
+
+    .tourpkg-location .tourpkg-leftcol,
+    .tourpkg-location .tourpkg-leftcol > div { float: left; }
+    .tourpkg-location .tourpkg-leftcol > div:not(:last-child) {
+        padding-right: 10px;
+    }
+
+    .tourpkg-available .tflex-content a,
+    .hotelslist.list .hotelslist-item .findbtn a {
+        min-width: 260px;
+    }
+
+    .hotelslist.grid .hotelslist-item {
+        flex-basis: 50%;
+    }
+
+    .hotelslist.list .hotelslist-item .htl-cont {
+        padding-left: 22px;
+    }
+
+    .hotelslist.list .hotelslist-item .tflex-col:first-child { flex: 0 0 30%; }
+    .hotelslist .hotelslist-item {
+        padding: 0;
+    }
+
+    .hotelslist.grid .hotelslist-item {
+        padding: 0 10px;
+    }
+    .sellodg-head-leftcol .input-group {
+        width: 135px;
+        min-width: 100px;
+    }
+    .sellodg-head-leftcol .form-group { padding-left: 18px; }
+
+    .teetime-form .form-group label,
+    .teetime-form .form-group .btn {
+        display: none;
+    }
+    .sellodg-head-leftcol .form-group p {
+        padding-top: 18px;
+    }
+
+    .courseContainer .available-list > .tflex .alignend .alignbtm   {
+        text-align: right;
+    }
+
+    #divLogin .modal-dialog,
+    #divPasswordReminder .modal-dialog {
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .form-group .form-control { height: 50px !important; }
+    .input-group .form-control { height: auto !important; }
+    .select2 .select2-selection { min-height: 50px !important; }
+
+    .tourpkg-header .form-group select.w-size {
+        width: 110px;
+    }
+
+    .tourpkg-available .tflex-col:first-child {
+        flex-basis: 275px;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+
+    .tourpkg-rightcol .btn-group .btn:first-child .shp-cart {
+        display: none;
+    }
+
+    .tourpkg-location .tourpkg-rightcol { float: right; }
+    .tourpkg-location .tourpkg-rightcol .btn-group { 
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    #divAddons .modal-dialog {
+        width: 900px;
+    }
+
+    .tourpkg-available .tflex .tflex-col { min-height: 184px; }
+
+    .available-list .tflex-vertical-center {
+        align-items: center;
+    }
+    .alignbtm { 
+        margin-bottom: 0;
+    }
+
+    .availablepkg-days .tflex-column {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .available-list .htl-image { margin-bottom: 0;}
+    .courseContainer .available-list .htl-image { 
+        height: 95px;
+        min-height: auto;
+    }
+
+    .hotelslist .htl-content p {
+        min-height: 70px;
+    }
+
+    .hotelslist.grid .hotelslist-item .htl-content p {
+        min-height: 15px;
+    }
+    .teetimeselect,
+    .teetimeselect.teetimeselectActive,
+    .teetimeselect.teetime-name-select { display: block; }
+}
+
+.tgrid {
+    flex-direction: column;
+}
+
+.tgrid .tflex-col {
+    flex: auto;
+}
+
+.courseContainer.courseItem .tflex-mitem .tgrid .alignend {
+    align-self: auto;
+    margin-top: auto;
+}
+
+.courseContainer.courseItem .tflex-mitem .tgrid {
+    /*flex: 0;*/
+    flex-grow: 1;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        .courseContainer.courseItem { flex: 0 0 19.1%}    
+    }
+
+@media only screen and (min-width: 1024px) {
+    
+    
+    .hotelslist.grid .hotelslist-item {
+        flex-basis: 33.3333333333%;
+        max-width:33.33%;
+        float:left;
+    }
+        .hotelslist.grid .hotelslist-item .tflex.hotelslist-itembody {
+            display: inline-block !important;
+        }
+        .hotelslist.grid .hotelslist-item .tflex-col {
+    position: relative;
+}
+        .hotelslist.grid .hotelslist-itembody .htl-content p {
+    display: inline-block;
+    max-height: 76px;
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 1600px) {
+    .tflex.tgrid {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .tgrid .tflex-col {
+        flex: 1;
+    }
+    .courseContainer.courseItem .tflex-mitem > .tflex-col.tgrid {
+        flex: 1;
+    }
+    .courseContainer.courseItem .tflex-mitem .tgrid .box-headercc {
+        text-align: left;
+    }
+    .hotelslist.grid .hotelslist-item {
+        flex-basis: 25%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .modal-dialog { width: 700px; }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .tourpkg-location .tourpkg-leftcol > div {
+        width: 50%;
+    }
+    
+    .select2-container,
+    .tourpkg-header .form-group select.w-size,
+    .progolf .tourpkg-header .form-group select.w-size {
+        width: 100%;
+    }
+    .select2-container {
+        width: 100% !important;
+    }
+    .progolf .select2 {
+        width: 100% !important;
+    }
+
+    .ui-slider.ui-slider-horizontal {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .available-list {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: -ms-flex;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tflex-mitem {
+        width: 50%;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .courseContainer .tflex-mitem {
+        width: 100%;
+        flex-direction: row;
+        padding: 0;
+    }
+    
+    .sebooking .checkDate .form-group:not(:last-child) {
+        padding-right: 11px;
+    }
+    .hotelslist.list .hotelslist-item .findbtn a {
+        min-width: 194px;
+    }
+    .hotelslist-item .findbtn .btn-info {
+        padding: 14px 7px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .courseContainer.courseItem {
+        flex: 0 0 calc(25% - 10px);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .courseContainer.courseItem {
+        flex: 0 0 calc(33.3333333333% - 10px);
+    }
+
+    .tourpkg-location .tourpkg-leftcol {
+        width: 100%;
+    }
+
+    .tourpkg-location .btn-group .btn.btn-addcart {
+        min-width: initial;
+    }
+
+    .tourpkg-rightcol { 
+        margin-bottom: 0;
+        text-align: right;
+    }
+    .tourpkg-rightcol .btn-group .btn:not(:first-child),
+    .tourpkg-rightcol .btn-group .btn .cartTxt {
+        display: none;
+    }
+    .tourpkg-rightcol .btn-group .btn:first-child {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .tourpkg-rightcol .btn-group .btn:first-child:hover {
+        border-color: transparent;
+    }
+
+    .tourpkg-rightcol .btn-group .btn:first-child .shp-cart {
+        width: 36px;
+        display: inline-block;
+    }
+    .btn-addcart {
+        width: auto;
+        float: right;
+    }
+
+    .tourpkg-rightcol .btn-addcart .cartValue {
+        padding: 0 4px;
+        border-radius: 3px;
+        color: #349be0;
+        position: relative;
+        top: 0;
+        letter-spacing: 0;
+        font-weight: normal;
+        line-height: 1;
+        background-color: transparent;
+        display: block;
+    }
+
+    .teetimelist{display:none;}
+    .teetimelist.teetimelistactive{display:block}
+    
+    .selectRnd {
+        position: relative;
+    }
+
+    .selectRnd.selectRndactive {
+        background-color: #349be0;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .selectRnd.selectRndactive:before {
+        content: '';
+        width: 111%;
+        height: 100%;
+        background-color: #349be0;
+        position: absolute;
+        top: 0;
+        left: -15px;
+        right: 0;
+    }
+
+    .teetime-form .btn-info { padding: 12px 18px;}
+    .teetime-form .form-group label,
+    .teetime-form .form-group .input-group,
+    .teetime-form .form-group .btn {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 12px;
+    }
+    .teetime-form .form-group .input-group { width: 44.5%; }
+    .teetime-form .form-group .btn { width: 34%; }
+    .teetime-form .form-group label {
+        width: 21.5%;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .selectRnd.selectRndactive .btn-info {
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+    .selectRndactive .teetime-form .form-group label {
+        color: #fff;
+        padding-top: 6px;
+    }
+
+    .selectRndactive .form-group .form-control {
+        border-color: #52aafd !important;
+    }
+
+    .teetime-form .input-group {
+        padding-right: 10px;
+    }
+
+    .teetime-form .input-group .form-control {
+        border: 1px solid #868686;
+        font-size: 12px;
+    }
+
+    .teetime-form .form-group .form-control {
+        border-radius: 3px !important;
+        height: 43px !important;
+    }
+
+    .teetime-form .form-group {
+        margin-bottom: 15px !important;
+    }
+
+    .teetime-form .form-group .form-cntrlicon { 
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) and (orientation: landscape) {
+    .courseContainer.col-lg-15.col-xs-12 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .bkg-teetimes > .row > div:not(:nth-child(3)),
+    .bkg-teetimes > .row > div:not(:nth-child(4)) {
+        margin-bottom: 20px;
+    }
+
+    .courseContainer.courseItem {
+        flex: 0 0 calc(50% - 10px);
+    }
+
+    .courseContainer .tflex-mitem {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .courseContainer .available-list > .tflex > .tflex-col:nth-child(1) {
+        flex-basis: 160px;
+        padding-right: 10px;
+    }
+
+    .courseContainer.col-lg-12 .available-list > .tflex > .tflex-col:nth-child(3) {
+        font-size: 12px;
+        display: none;
+    }
+
+    .courseContainer .htl-image {
+        height: 110px;
+    }
+
+    .courseContainer.col-lg-3 .htl-image {
+        margin-bottom: 0;
+    }
+
+    .courseContainer.courseItem {
+        flex-direction: column;
+    }
+
+    .courseContainer .htl-image {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hideMobile, .gridview,  .login-box-body .clear { display: none !important; }
+    .select2-container { width: 100% !important}
+
+    .tophead.tourpkg-options{
+        margin: -50px -15px 0;
+    }
+
+    .login-box-body .col {
+        float: none;
+        width: 100%;
+    } 
+    .login-box-body .btn.btn-info.btn-flat{
+        margin-top: 10px !important;
+        padding: 12px 18px !important;
+        width: 100%;
+    }
+
+    .ui-slider.ui-slider-horizontal {
+        top: 40px;
+    }
+    .ui-slider.ui-corner-all {
+        width: 95%;
+    }
+
+    .pkgNote, .pkgheadline {
+        text-align: left;
+    }
+
+    .pkgNote {
+        margin-bottom: 15px;
+    }
+
+    .tourpkg-wrapper {
+        padding-top: 15px;
+    }
+    
+    .tourpkg-location {
+        margin-bottom: 50px; 
+    }
+    .tourpkg-available .available-list > .tflex {
+        flex-direction: column;
+    }
+    .tourpkg-available .tflex-content p {
+        margin-top: 5px;
+    }
+    .tourpkg-wrapper.tab-content { padding-top: 20px; }
+    .tourpkg-teetimes {
+        margin-top: 5px;
+    }
+    .selodging-header .form-group select {
+        width: 70px;
+    }
+    .mlt-course .tourpkg-location {
+        margin-bottom: -10px;
+    }
+    .mlt-course .tourpkg-leftcol {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .mlt-course .tourpkg-header .tourpkg-leftcol .tourpkg-flt {
+        width: 50%;
+        padding: 0 5px;
+        float: left;
+    }
+    .mlt-course .tourpkg-header .form-group select {
+        width: 100%;
+    }
+    .select2 {
+        min-width: 100%;
+    }
+
+    .downArrow {
+        top: 43px;
+    }
+
+    .hotelslist.list .hotelslist-item {
+        flex-direction: column;
+    }
+
+    .hotelslist.list .hotelslist-item .htl-image {
+        margin-bottom: 10px;
+    }
+
+    .availablepkg-days .tflex-column {
+        padding-left: 0; padding-right: 0;
+    }
+    .availablepkg-activitytxt {
+        min-height: initial !important;
+    }
+    .tabName {
+        display: none;
+        position: absolute;
+        bottom: -50px;
+        left: 15px;
+    }
+    .sellodg-tabs .nav-tabs li:not(:last-child) {
+        margin-right: 7px;
+    }
+    .selodging-prop { padding: 25px 0; }
+    .fm-Inline:first-child > .form-group { width: 50%; padding: 0 10px; }
+    .fm-Inline:first-child {
+        margin-left: -9px;
+        margin-right: -10px !important;
+        float:none !important;
+    }
+    .fm-Inline:nth-child(2) .form-group:not(:last-child) {
+        padding-right: 5px
+    }
+    .fm-Inline > .form-group .input-group { display: block; }
+    .fm-Inline > .form-group label { margin-bottom: 5px; }
+
+    .teetime-form .form-group {
+        margin-bottom: 15px;
+    }
+
+    .availablepkg-wizards .nav > li {
+        padding: 0 15px;
+    }
+    
+    .sellodg-tabs .nav-tabs li:nth-child(2) {
+        margin-right: 0;
+    }
+    .selodging-header .input-group .form-control {
+        border: 1px solid #868686;
+        border-radius: 3px;
+    }
+    .sellodg-head-leftcol .form-group .form-cntrlicon {
+        top: 13px;
+        left: 13px;
+    }
+    .selodging-header .lod-guest { padding-top: 16px; }
+    .selodging .form-group label > strong { padding-left: 0; }
+    .selodging-header .input-group .form-control { padding-left: 40px; }
+
+    .sebooking {
+        padding-top: 130px;
+    }
+    .sebooking .bkg-footer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .sebooking h3, .sebooking label {
+        margin-bottom: 5px;
+    }
+    .sebooking > .row > div {
+        margin-bottom: 20px;
+    }
+    .bkg-footer { text-align: center;}
+    .bkg-footer .subtotal {
+        margin-top: 20px;
+        text-align: left;
+        display: block;
+        /*margin-left: -106px;*/
+        margin-bottom: 9px;
+    }
+    .delete-order {
+        top: 0 !important;
+    }
+     #carttotal3 {
+        margin-left: 0;
+    }
+
+    .cont-right h5 {
+        display: block;
+        margin: 12px 0;
+        text-align: center;
+    }
+
+    .cart-modal-footer .btn {
+        width: 100%;
+    }
+
+    .courseContainer .available-list > .tflex > .tflex-col:nth-child(1) {
+        flex-basis: 100%;
+        padding-right: 0;
+    }
+
+    .courseContainer.col-xs-12 .available-list > .tflex > .tflex-col:nth-child(3) {
+        flex-basis: 100%;
+        margin: 15px 0;
+    }
+
+    .courseContainer .available-list > .tflex .tflex-col {
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .courseContainer.courseItem .available-list > .tflex .tflex-col {
+        flex-basis: auto;
+    }
+
+    .courseContainer .htl-image {
+        height: 150px;
+    }
+
+    #carttotal, #carttotal2 {
+        font-size: 14px !important;
+        padding-left: 12px !important;
+    }
+    .stepinstructions, .pkgheadline {
+	    font-size: 13px;
+    }
+    .pkgname {
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    #itemlist,
+    #itemlist1 {
+        max-height: 308px;
+    }
+
+    .border-box {
+        margin-bottom: 23px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .courseContainer.courseItem {
+        flex: 0 0 calc(100% - 10px);
+    }
+    .del-order {
+        padding: 9px 11px 7px;
+        font-size: 12px;
+    }
+    .bkg-footer .btn-info {
+        width: 100%;
+        max-width: initial;
+        min-width: initial;
+    }
+    .bkg-footer { text-align: left; }
+    .bkg-footer .subtotal {
+        margin-bottom: 8px;
+    }
+    .courseContainer .tflex-col .tflex-content .alignbtm {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    h4.text-black {
+        font-size: 1rem;
+        padding-right: 0;
+    }
+
+    .cont-right {
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .cont-right h5 {
+        font-size: 1rem;
+    }
+}
